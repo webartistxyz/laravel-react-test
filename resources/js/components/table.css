@@ -1,0 +1,11 @@
+table thead,
+table tfoot {
+  position: sticky;
+  background-color: white;
+}
+table thead {
+  inset-block-start: 0; /* "top" */
+}
+table tfoot {
+  inset-block-end: 0; /* "bottom" */
+}
